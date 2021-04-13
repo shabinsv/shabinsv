@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.ss:hover{
+    border: 1px solid black;
+}
+.aboutkerala{
+    padding-top: 15px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-top: 1px solid black;
+}
+.about{
+    margin: 25px;
+}
+.aboutt{
+    margin-top: 25px;
+    padding: 0px;
+    text-align: justify;
+}
+.aboutpara{
+    margin: 25px;
+    margin-right: 52px;
+    text-align: justify;
+}
+.form{
+    float: right;
+    border: 0.5px solid gray;
+    margin-right: 16%;
+    margin-top: 7%;
+    padding-right: 4%;
+    padding-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 2%;
+    background-color: white;
+    border-radius: 15px;
+    
+}
+.logintext{
+    color: rgb(43, 43, 243);
+    font-weight: 900;
+    text-align: center;
+    padding-top:15%;
+    border-top: 1px solid black;
+}
+.logintextsub{
+    color: red;
+    font-weight: 800;
+    text-align: right;
+    padding-right: 25em;
+}
+.signuptextsub{
+    color: red;
+    font-weight: 800;
+    text-align: right;
+    padding-right: 22.6em;
+}
+#login{
+    width: 100%;
+    height: 2em;
+    background:dodgerblue;
+    border: 0.5px solid dodgerblue;
+    color: white;
+    border-radius: 5px;
+}
+#login:hover{
+    color: green;
+}
+.loginacc{
+    font-weight: 600;
+    border: 1px solid lightgreen;
+    background:lightgreen;
+    border-radius: 5px;
+    color: white;
+}
+.signupform{
+    float: right;
+    border: 0.5px solid gray;
+    margin-right: 5%;
+    margin-top: 1%;
+    padding-right: 6%;
+    padding-left: 6%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    background-color: white;
+    border-radius: 15px;
+
+}
+.signup label{
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+    margin-top: 10%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.signup input{
+    width: 100%;
+}
+#sign{
+    width: 100%;
+    height: 2em;
+    background:lightgreen;
+    border: 0.5px solid lightgreen;
+    color: white;
+    border-radius: 5px
+}
+.signacc{
+    font-weight: 600;
+    border: 1px solid dodgerblue;
+    background:dodgerblue;
+    border-radius: 5px;
+    color: white;
+}
+#sign:hover{
+    color: dodgerblue;
+}
+.distheader{
+    color: red;
+    font-weight: 900;
+    text-align: center;
+    padding-top:1%;
+    border-top: 1px solid black;
+}
+.image{
+    position: relative;
+    width: 300px;
+    border: 2px solid white;
+}
+.img{
+    display: block;
+    width: 100%;
+    height: 185px;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.overlay a{
+    font-weight: 900;
+    text-decoration: none;
+    color:black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+.overlay:hover{
+    opacity: 0.7;
+}
+.dismargin{
+    margin-top: 3%;
+}
+.dissearch h2{
+    text-align: center;
+    font-weight: 900;
+    color:white;
+    padding-top: 16%;
+}
+.dissearch h2:hover{
+    color: lightgreen;
+}
+.dissubheader{
+    border: 1px solid lightgreen;
+    background-color:lightgreen;
+    text-align: center;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.distrimargin{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.distrimga{
+    border: 2px solid black;
+    width: 590px;
+    height: 369px;
+    margin-left: 5%;
+}
+.distripara{
+    padding-left: 5%;
+}
+.distriparag{
+    padding-left: 3%
+}
+.disfooter{
+    /* border: 1px solid white; */
+    background-color:lightgreen;
+    color: black;
+    height: 1em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+.disfooter p{
+    text-align: center;
+    font-size: xx-small;
+}
+.ssddaa{
+    border: 1px solid blue;
+}
+#span{
+    border: 1px solid grey;
+    width: 100%;
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 1px;
+    height: 15px;
+    font-size: x-small;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#error{
+    
+    font-size: small;
+    text-align: center;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
